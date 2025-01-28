@@ -37,5 +37,5 @@ journal["inc - exp"] = journal["income"] - journal["expenses"]
 print(journal)
 # Простой анализ данных
 print(f'Максимальный доход за месяц: {journal["income"].max()}')
-print(f'Максимальный расход за месяц: {journal["expenses"].max()}')
+print(f'Минимальный расход за месяц: {journal["expenses"].min()}')
 print(f'Прибыль за год: {journal["inc - exp"].sum()}')
